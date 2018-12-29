@@ -8,7 +8,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return '<h1>This is the fisrt "About Page" developed</h1>'
+    return '<h1>This is the fisrt "About Page" developed by me</h1>'
 
 if __name__ == '__main__':
 	app.run(debug=True)
